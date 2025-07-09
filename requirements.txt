@@ -1,5 +1,5 @@
 streamlit==1.35.0
 pandas>=2.2.2
-scikit-learn==1.3.2
+scikit-learn>=1.3.2  # allows wheel installation
 fuzzywuzzy==0.18.0
 python-Levenshtein==0.21.1
