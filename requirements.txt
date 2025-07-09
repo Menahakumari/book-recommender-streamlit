@@ -1,0 +1,37 @@
+streamlit
+pandas
+scikit-learn
+fuzzywuzzy
+python-Levenshtein
+✅ How to Create It
+You have 2 easy options:
+
+🔸 Option 1: Create it manually
+Open Notepad (or any text editor)
+
+Paste the above lines exactly
+
+Save the file as:
+
+Copy
+Edit
+requirements.txt
+Make sure the extension is .txt and not .txt.txt.
+
+🔸 Option 2: Create it with Python (Colab or Jupyter)
+If you're using Colab, run this cell:
+
+python
+Copy
+Edit
+with open("requirements.txt", "w") as f:
+    f.write("streamlit\npandas\nscikit-learn\nfuzzywuzzy\npython-Levenshtein\n")
+It will create the file in your working directory — ready to download or upload to GitHub.
+
+Do you want me to also generate a .zip file containing:
+
+✅ streamlit_app.py
+
+✅ books.csv (if you upload it)
+
+✅ requirements.txt
