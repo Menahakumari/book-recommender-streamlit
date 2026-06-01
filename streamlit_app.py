@@ -69,4 +69,4 @@ if book_input:
         for book in recommendations:
             st.markdown(f"- {book}")
     else:
-        st.error("❌ No close match found. Try another title.")
+        st.error("❌ No similar title was found. Please check the spelling or try another book.")
